@@ -1,0 +1,27 @@
+
+#firstH1 {
+    color: green;
+    text-align: center;
+}
+#firstP {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+#style{
+    width: 300px; /* Ширина таблицы */
+    border: 1px solid blue; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+    background-color: white;
+}
+
+
+body {
+    background-color: aquamarine;
+    background-image: url("resources/images/foto.jpg") ;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+
+}

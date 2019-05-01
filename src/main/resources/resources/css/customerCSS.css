@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+body {
+    background-color: goldenrod;
+}
+
+#tableCust1, tr, th{
+    border: 1px solid black;
+    margin: auto;
+
+    background-color: white;
+}

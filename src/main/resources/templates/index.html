@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" th:href="@{/resources/css/stylesheet.css}"/>
+    <title>Index</title>
+</head>
+<body>
+
+<table border="1" id="style">
+    <tr>
+        <th> <a href="customer.html">Customer</a> </th>
+        <th> <a href="goods.html">Goods</a> </th>
+        <th> <a href="orderIter.html">OrderIter</a> </th>
+        <th> <a href="orders.html">Orders</a> </th>
+    </tr>
+</table>
+
+          <h1 id="firstH1">Welcome to my WebShop</h1>
+          <p id="firstP">This project is a trial, and serves to show my development skills.
+              In applied many technologies to develop this project, I first applied, SQL Power Architect,
+              created tables for the database, declared the connections between the tables,
+              then imported all this into PostgreSQL, added several records to the database tables.
+              Created a project in the development environment Intellig IDEA.
+              Using Spring Boot Initializer.
+              Through persistens, attached the database to the project, created all the necessary logic,
+              added dao, controllers, services, set up configurations.
+              In the end, i added a bit of a frontend, the project is completely working,
+              maybe not too perfect, but still working.
+          </p>
+
+
+         <img th:src="@{/resources/images/foto.jpg}" />
+</body>
+</html>
